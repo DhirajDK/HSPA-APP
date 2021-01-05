@@ -1,6 +1,11 @@
 .card {
   min-height: 400px;
 }
+
+.card-body h1{
+  font-family: fantasy;
+  color: blue;
+}
 .card-img-wrapper{
   overflow: hidden;
   position: relative;

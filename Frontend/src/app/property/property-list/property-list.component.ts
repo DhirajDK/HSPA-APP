@@ -24,6 +24,7 @@ export class PropertyListComponent implements OnInit {
     this.housingService.getAllProperties(this.SellRent).subscribe(
       data => {
         this.properties = data;
+       
       },
       error => {
         console.log(error);
